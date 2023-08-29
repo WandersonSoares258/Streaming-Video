@@ -10,6 +10,14 @@ public abstract class Titulo {
     private int totalDasAvaliacoes;
 
 
+
+     public Titulo (String nome, int anoDeLancamento){
+         this.anoDeLancamento = anoDeLancamento;
+         this.nome = nome;
+
+     }
+
+
     public String getNome() {
         return nome;
     }
